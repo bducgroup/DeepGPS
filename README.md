@@ -1,5 +1,18 @@
 # DeepGPS
-This repository is the official PyTorch implementation of DeepGPS:
+This repository is the official PyTorch implementation of **DeepGPS**, which has been published in _IEEE Transactions on Mobile Computing_ (TMC), a premier journal in the field of mobile computing.<br>
+
+If you find **DeepGPS** useful, please cite our paper with the following bibtex:<br>
+
+@article{liu2024deepgps,<br>
+title={{DeepGPS}: deep learning enhanced {GPS} positioning in urban canyons},<br>
+author={Liu, Zhidan and Liu, Jiancong and Xu, Xiaowen and Wu, Kaishun},<br>
+journal={IEEE Transactions on Mobile Computing},<br>
+volume={23},<br>
+number={1},<br>
+pages={376--392},<br>
+year={2024},<br>
+publisher={IEEE}<br>
+}<br>
 
 ## Installation
 Requirements: Python >= 3.5, Anaconda3
@@ -31,3 +44,13 @@ Each .npz file contains contextual information and ground truth for one position
 - npz_file['arr_4']：Gaussian Peak Representaiton for ground truth.
 - npz_file['arr_5']：Skyplot Matrix.
 ```
+
+## Download
+The weights of a well-trained model can be downloaded from Baidu Cloud Storage (百度网盘) using the following information:<br>
+
+链接：https://pan.baidu.com/s/1ehZHT895ass9PEZ3AsFaTQ?pwd=jb0w<br>
+提取码：jb0w<br>
+
+## Other Works
+
+Please follow our group at https://github.com/SZU-BDUC/.
